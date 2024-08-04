@@ -7,7 +7,7 @@ import (
 )
 
 func TestClient(t *testing.T) {
-	client, err := NewClient("47.237.141.189:18394", "vmJIu4&dz)1R", 10)
+	client, err := NewClient("x.x.x.x:xxxxx", "xxx", 10)
 	if err != nil {
 		t.Fatalf("连接 Redis 服务器失败: %v", err)
 	}
